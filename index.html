@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">this is a Survey Form to collecte important data.</p>
+    <form id="survey-form">
+      <label id="name-label" for="name">Name (required)</label>
+      <input required  id="name" type="text" placeholder ="nina joe">
+      <label id="email-label" for="email">Email (required)</label>
+      <input required  id="email" type="email" placeholder ="@nina.com">
+      
+      <label id="number-label" for="number">Number</label>
+      <input  id="number" type="number"  min="3" max="10" placeholder="55566">
+      <select id="dropdown">
+        <option value="yes">
+Yes
+        </option>
+        <option value="no">
+No
+        </option>
+
+      </select>
+      <label for="btn">male</label>
+      <input id="btn" type="radio" name="gender" value="female">
+      <label for="btnn">female</label>
+      <input id="btnn" type="radio" name="gender" value="male">
+      <lable for="box">html
+        </label>
+        <input id="box" type="checkbox" value="html">
+        <lable for="boxx">css
+        </label>
+        <input id="boxx" type="checkbox" value="css">
+        <lable for="boxi">js
+        </label>
+        <input id="boxi" type="checkbox" value="js">
+        <textarea></textarea>
+        <button id="submit">submit</button>
+    </form>
+  </body>
+</html>
